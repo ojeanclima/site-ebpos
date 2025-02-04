@@ -1,68 +1,71 @@
-/* Estilo para inputs de login */
 input#user_login,
 input#user_pass {
     padding-left: 1em !important;
 }
 
-/* Ocultar link da política de privacidade */
+/* span#loginfy-username,
+* span#loginfy-password {
+*    display: none !important;
+**/ }
+
+
 .privacy-policy-page-link {
     display: none !important;
 }
 
-/* Estilo para elementos personalizados da página de login */
-body.loginfy-login-customizer #loginform label, 
-body.loginfy-login-customizer #loginfy-lost-password, 
-body.loginfy-login-customizer #backtoblog a {
+body.loginfy-login-customizer #loginform label, body.loginfy-login-customizer #loginfy-lost-password, body.loginfy-login-customizer #backtoblog a {
     color: #a3a3a3;
 }
 
-/* Estilo para botão de submit */
+
 input#wp-submit {
     padding-top: 1em !important;
     padding-bottom: 2em !important;
-    width: 100% !important;
+		width: 100% !important;
+
 }
 
-/* Estilo para o formulário de login */
+
 form#loginform {
     box-shadow: none !important;
 }
 
-.login form {
-    background-color: transparent !important;
+.login form  {
+	background-color: transparent !important;
 }
 
-/* Estilo para formulários personalizados */
-body.loginfy-login-customizer #loginform, 
-body.loginfy-login-customizer #registerform, 
-body.loginfy-login-customizer #lostpasswordform {
-    background-color: transparent !important;
+body.loginfy-login-customizer #loginform, body.loginfy-login-customizer #registerform, body.loginfy-login-customizer #lostpasswordform {
+  background-color: transparent !important;
 }
 
-body.loginfy-login-customizer #loginform input[type="checkbox"], 
-body.loginfy-login-customizer #registerform input[type="checkbox"], 
-body.loginfy-login-customizer #lostpasswordform input[type="checkbox"], 
-body.loginfy-login-customizer #loginform input[type="radio"], 
-body.loginfy-login-customizer #registerform input[type="radio"], 
-body.loginfy-login-customizer #lostpasswordform input[type="radio"] {
+body.loginfy-login-customizer #loginform input[type="checkbox"], body.loginfy-login-customizer #registerform input[type="checkbox"], body.loginfy-login-customizer #lostpasswordform input[type="checkbox"], body.loginfy-login-customizer #loginform input[type="radio"], body.loginfy-login-customizer #registerform input[type="radio"], body.loginfy-login-customizer #lostpasswordform input[type="radio"] {
     border: 1px solid #dcdcde;
 }
-
-/* Estilo para o parágrafo forgetmenot */
 p.forgetmenot {
     margin-bottom: 1em !important;
 }
 
-/* Estilo para o seletor de idioma */
 .language-switcher {
     opacity: 0.4;
 }
 
-/* Estilo para links de navegação e política de privacidade */
-body.loginfy-login-customizer #login #nav a, 
-body.loginfy-login-customizer.login .privacy-policy-page-link a {
+
+body.loginfy-login-customizer #login #nav a, body.loginfy-login-customizer.login .privacy-policy-page-link a {
     color: #7584ab;
     font-size: 14px;
     font-weight: 100;
     text-decoration: none;
 }
+
+input#user_login.input:focus,
+#user_pass:focus {
+    color: rgb(50, 50, 50) !important;
+    border-color: rgb(100, 100, 100) !important;
+    outline: 2px solid rgb(50, 50, 50) !important;
+}
+
+div.loginfy-form-container {
+    background: linear-gradient(rgb(240, 240, 240), rgb(224, 224, 224));
+}
+
+

@@ -1,0 +1,13 @@
+img.plugin-icon {
+    filter: grayscale(1) !important;
+}
+
+hr.frame-adminify-menu-separator {
+    display: none !important;
+}
+
+body.wp-adminify {
+    --adminify-primary: #171718 !important;
+    --adminify-primary: #171718 !important;
+}
+

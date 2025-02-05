@@ -11,3 +11,6 @@ body.wp-adminify {
     --adminify-primary: #171718 !important;
 }
 
+button#show-settings-link {
+    display: none;
+}

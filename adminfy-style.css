@@ -8,35 +8,30 @@ hr.frame-adminify-menu-separator {
 
 body.wp-adminify {
     --adminify-primary: #171718 !important;
-    --adminify-primary: #171718 !important;
 }
 
 button#show-settings-link {
     display: none;
 }
-button#show-settings-link {
-    display: none;
-}
-
 
 .wrap {
     margin-top: 10em !important;
     background: radial-gradient(#fff0f0, transparent);
     padding: 4em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
 }
-
 
 div#poststuff {
-    display: flex
-;
+    display: flex;
     flex-direction: column;
 }
-
 
 .postbox-header {
     border: none;
 }
-
 
 a#post-preview {
     display: none;
@@ -55,17 +50,3 @@ input#save-post {
     border-color: #f9f9f9;
     border-radius: 8px;
 }
-
-.adminify-ui .widefat, .adminify-ui .wp-list-table {
-    border-color: #f9f9f9;
-    border-radius: 8px;
-}
-
-
-.wrap {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-}
-

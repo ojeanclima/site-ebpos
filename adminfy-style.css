@@ -50,3 +50,22 @@ input#save-post {
     border-radius: 8px;
     color: black;
 }
+
+.adminify-ui .widefat, .adminify-ui .wp-list-table {
+    border-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+.adminify-ui .widefat, .adminify-ui .wp-list-table {
+    border-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+
+.wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+

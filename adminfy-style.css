@@ -14,3 +14,39 @@ body.wp-adminify {
 button#show-settings-link {
     display: none;
 }
+button#show-settings-link {
+    display: none;
+}
+
+
+.wrap {
+    margin-top: 10em !important;
+    background: radial-gradient(#fff0f0, transparent);
+    padding: 4em;
+}
+
+
+div#poststuff {
+    display: flex
+;
+    flex-direction: column;
+}
+
+
+.postbox-header {
+    border: none;
+}
+
+
+a#post-preview {
+    display: none;
+}
+
+input#save-post {
+    width: 100%;
+    background-color: #ffffff;
+    font-weight: 400;
+    padding: 10px 0px 1.2em;
+    border-radius: 8px;
+    color: black;
+}

@@ -68,4 +68,17 @@ div.loginfy-form-container {
     background: linear-gradient(rgb(240, 240, 240), rgb(224, 224, 224));
 }
 
+#login {
+background: rgba(255, 255, 255, 0.1);
+border-radius: 10px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10px);
+-webkit-backdrop-filter: blur(10px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+padding: 20px;
+width: 300px;
+text-align: center;
+color: white;
+}
+
 

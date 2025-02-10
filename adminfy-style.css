@@ -50,3 +50,7 @@ input#save-post {
     border-color: #f9f9f9 !important;
     border-radius: 8px !important;
 }
+
+h1.wp-heading-inline {
+    width: 100% !important;
+}

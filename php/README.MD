@@ -1,4 +1,4 @@
-Claro! Aqui está uma função simplificada para adicionar um filtro dropdown de tags na página de administração do Custom Post Type "pagina-de-captura":
+## Filtro dropdown de tags na página de administração do Custom Post Type "pagina-de-captura":
 
 ```php
 // Adicionar filtro de tags na tabela de listagem do Custom Post Type

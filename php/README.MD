@@ -33,5 +33,3 @@ add_action('restrict_manage_posts', 'add_tag_filter_to_admin_list');
 1. Adicione este código ao arquivo `functions.php` do seu tema ativo.
 2. Acesse a página de administração dos posts "pagina-de-captura".
 3. Você verá um dropdown de tags acima da tabela de listagem. Selecione uma tag para filtrar os posts.
-
-Isso deve adicionar um filtro de tags simplificado à tabela de listagem do seu Custom Post Type. Se precisar de mais alguma coisa, estou à disposição! 😊

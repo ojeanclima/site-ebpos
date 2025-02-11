@@ -6,8 +6,8 @@ input#user_pass {
 /* span#loginfy-username,
 * span#loginfy-password {
 *    display: none !important;
-**/ }
-
+* }
+*/
 
 .privacy-policy-page-link {
     display: none !important;

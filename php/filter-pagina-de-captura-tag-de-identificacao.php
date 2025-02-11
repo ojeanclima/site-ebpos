@@ -7,7 +7,7 @@ function add_tag_filter_to_admin_list() {
     $taxonomy = 'tag-de-identificacao'; // Nome da taxonomia
 
     if ($typenow == $post_type) {
-        wp_dropdown_categories(array(
+        wp_dropdown_categories([
             'show_option_all' => 'Todas as Tags',
             'taxonomy' => $taxonomy,
             'name' => $taxonomy,
@@ -16,7 +16,7 @@ function add_tag_filter_to_admin_list() {
             'show_count' => true,
             'hide_empty' => true,
             'value_field' => 'slug'
-        ));
+        ]);
     }
 }
 
